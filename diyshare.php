@@ -15,13 +15,13 @@ function add_custom_text_under_posts($content){
   $content .= get_permalink();
   $content .= "&t=";
   $content .= get_the_title();
-  $content .= '"  title="Share on facebook"><img src="/wp-content/plugins/diyshare/facebook.png" alt="Facebook Logo"></a>';
+  $content .= '"  title="Share on facebook"><img src="http://tomflanders.com/wp-content/plugins/diyshare/facebook.png" alt="Facebook Logo"></a>';
 
   $content .= '<a href="http://twitter.com/share?text=';
   $content .= urlencode(get_the_title());
   $content .= '&url=';
   $content .= get_permalink();
-  $content .= '&via=twitter&related=" target="_blank" title="Share on twitter"><img src="/wp-content/plugins/diyshare/twitter.png" alt="Twitter Logo"></a>';
+  $content .= '&via=twitter&related=" target="_blank" title="Share on twitter"><img src="http://tomflanders.com/wp-content/plugins/diyshare/twitter.png" alt="Twitter Logo"></a>';
 
   return $content;
    }
