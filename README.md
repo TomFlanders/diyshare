@@ -8,7 +8,7 @@ A very simple WordPress plugin for Facebook and Twitter sharing
 The Facebook and Twitter icons will appear at the bottom of each post and page.
 
 ## License
-**TBD**
+GNU GENERAL PUBLIC LICENSE Version 3
 
 ## Author
 tom@tomflanders.com
