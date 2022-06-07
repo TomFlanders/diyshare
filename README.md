@@ -1,5 +1,5 @@
 # diyshare
-A very simple WordPress plugin for Facebook and Twitter sharing
+A WordPress plugin for Facebook and Twitter sharing
 
 ## Installation
 1. Download files to WordPressRoot/wp-content/plugins/diyshare.
